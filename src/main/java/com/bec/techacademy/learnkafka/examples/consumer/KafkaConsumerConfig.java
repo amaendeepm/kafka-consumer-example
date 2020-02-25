@@ -1,10 +1,13 @@
-package dk.martincallesen.kafka.consumer;
+package com.bec.techacademy.learnkafka.examples.consumer;
 
-import dk.martincallesen.datamodel.event.Account;
-import dk.martincallesen.datamodel.event.Customer;
-import dk.martincallesen.datamodel.event.SpecificRecordAdapter;
-import dk.martincallesen.datamodel.event.SpecificRecordDeserializer;
-import dk.martincallesen.kafka.serializer.KafkaDeserializer;
+import com.bec.techacademy.learnkafka.datamodel.event.Account;
+import com.bec.techacademy.learnkafka.datamodel.event.Customer;
+import com.bec.techacademy.learnkafka.datamodel.event.SpecificRecordAdapter;
+import com.bec.techacademy.learnkafka.datamodel.event.SpecificRecordDeserializer;
+import com.bec.techacademy.learnkafka.datamodel.event.SpecificRecordAdapter;
+import com.bec.techacademy.learnkafka.examples.serializer.KafkaSerializer;
+
+import com.bec.techacademy.learnkafka.examples.serializer.KafkaDeserializer;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.beans.factory.annotation.Value;

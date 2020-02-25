@@ -1,4 +1,4 @@
-package dk.martincallesen.kafka.consumer;
+package com.bec.techacademy.learnkafka.examples.consumer;
 
 import dk.martincallesen.datamodel.event.Account;
 import dk.martincallesen.datamodel.event.Customer;

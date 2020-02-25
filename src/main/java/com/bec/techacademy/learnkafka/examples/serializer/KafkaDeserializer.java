@@ -1,7 +1,7 @@
-package dk.martincallesen.kafka.serializer;
+package com.bec.techacademy.learnkafka.examples.serializer;
 
-import dk.martincallesen.datamodel.event.SpecificRecordAdapter;
-import dk.martincallesen.datamodel.event.SpecificRecordDeserializer;
+import com.bec.techacademy.learnkafka.datamodel.event.SpecificRecordAdapter;
+import com.bec.techacademy.learnkafka.datamodel.event.SpecificRecordDeserializer;
 import org.apache.kafka.common.errors.SerializationException;
 import org.apache.kafka.common.serialization.Deserializer;
 
